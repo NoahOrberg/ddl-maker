@@ -2,7 +2,7 @@
 
 ddl-maker is generate ddl from Go struct.
 
-[![Build Status](https://travis-ci.org/kayac/ddl-maker.svg?branch=add-travis-config)](https://travis-ci.org/kayac/ddl-maker)
+[![Build Status](https://travis-ci.org/NoahOrberg/ddl-maker.svg?branch=add-travis-config)](https://travis-ci.org/NoahOrberg/ddl-maker)
 
 # How to use
 
@@ -15,8 +15,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/kayac/ddl-maker/dialect"
-	"github.com/kayac/ddl-maker/dialect/mysql"
+	"github.com/NoahOrberg/ddl-maker/dialect"
+	"github.com/NoahOrberg/ddl-maker/dialect/mysql"
 )
 
 type User struct {
@@ -102,8 +102,8 @@ import (
 	"flag"
 	"log"
 
-	"github.com/kayac/ddl-maker"
-	ex "github.com/kayac/ddl-maker/_example"
+	"github.com/NoahOrberg/ddl-maker"
+	ex "github.com/NoahOrberg/ddl-maker/_example"
 )
 
 func main() {
